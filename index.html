@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reabilita+ - Saúde e Reabilitação Física</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="assets/logo.png" alt="Logo Reabilita+" class="logo">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Área de Boas-vindas -->
+    <section id="home">
+      <div class="welcome-content">
+        <h2>Bem-vindo à Reabilita+</h2>
+        <p>Reabilitação personalizada para uma recuperação segura e eficaz.</p>
+      </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre">
+      <div class="section-content">
+        <h2>Sobre Nós</h2>
+        <p>Nosso compromisso é proporcionar uma reabilitação</br>
+           que promove saúde e bem-estar, com foco em qualidade, empatia e cuidado.</p>
+      </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos">
+      <div class="section-content">
+        <h2>Nossos Serviços</h2>
+        <div class="services">
+          <div class="service">
+            <i class="fas fa-heart"></i>
+            <h3>Reabilitação Física</h3>
+            <p>Programas personalizados para recuperação de lesões e aumento da mobilidade.</p>
+          </div>
+          <div class="service">
+            <i class="fas fa-hands-helping"></i>
+            <h3>Fisioterapia Especializada</h3>
+            <p>Tratamento focado na recuperação e no bem-estar físico.</p>
+          </div>
+          <div class="service">
+            <i class="fas fa-user-shield"></i>
+            <h3>Acompanhamento Individual</h3>
+            <p>Cuidado próximo e humanizado para cada paciente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+      <div class="section-content">
+        <h2>Contato</h2>
+        <form action="enviar_formulario.php" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="socials">
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2024 Reabilita+ - Todos os direitos reservados</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
